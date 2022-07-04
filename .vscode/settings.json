@@ -1,5 +1,9 @@
 {
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "rest-client.environmentVariables": {
+    "dev": {},
+  }
 }
