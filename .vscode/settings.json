@@ -4,6 +4,9 @@
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "rest-client.environmentVariables": {
-    "dev": {},
-  }
+    "dev": {
+      "token": "TBD"
+    },
+  },
+  "prettier.semi": true
 }

@@ -3,13 +3,13 @@ import {
   ConflictException,
   Injectable,
 } from '@nestjs/common';
-import { DbService } from 'src/db/db.service';
-import { AuthDto } from 'src/dto';
+import { AuthDto } from 'src/auth/dto';
 import * as argon2 from 'argon2';
 import { User } from '@prisma/client';
 import { PrismaClientKnownRequestError } from '@prisma/client/runtime';
 import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
+import { DbService } from 'src/db/db.service';
 
 @Injectable()
 export class AuthService {

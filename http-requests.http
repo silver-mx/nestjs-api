@@ -27,3 +27,7 @@ Accept: application/json
 ###
 GET http://localhost:3333/users/me
 Authorization: Bearer {{token}}
+
+###
+PATCH http://localhost:3333/users
+Authorization: Bearer {{token}}
